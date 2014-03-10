@@ -1,2 +1,3 @@
 mips-crossroads
-===============
+=============== 
+Semaphore management simulator for a single crossroad written in x86 Assembly which implements a dynamic algorithm for optimal selection of lane groups. Groups are selected based on the heuristic combining duration of the red light in previous waves and number of cars present in each lane. There are 36 lane groups in total, and at the begining of each wave, they are ranked based on their calculated heuristic. Pedestrian semaphores have precedence, so no lane intersecting the green pedestrian walk will be selected. Developed as part of the microprocessors course, Faculty of Electrical Engineering, University of Belgrade, 2012.
